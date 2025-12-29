@@ -38,7 +38,7 @@ class MainApp extends StatelessWidget {
 }
 
 class _ChannelChatPage extends StatefulWidget {
-  const _ChannelChatPage({super.key});
+  const _ChannelChatPage();
 
   @override
   State<_ChannelChatPage> createState() => __ChannelChatPageState();
