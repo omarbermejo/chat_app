@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  stream-token-server:
+    build: .
+    container_name: stream-token-server
+    ports:
+      - "3001:3000"
+    environment:
+      STREAM_API_KEY: "p4q6f6afa9dj"
+      STREAM_API_SECRET: "3wsu7sn5zpqstmcbbrn7dws96uzjcgs8x88f5z3qgkm56539vc7u2awjypvguffv"
+      PORT: "3000"
+    restart: unless-stopped
